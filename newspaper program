@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+  int a, b, c, d, e;
+  cout<<"no. copies ";
+  cin>>a;
+  cout<<"cost per copy ";
+  cin>>b;
+  cout<<"cost agency spends per copy ";
+  cin>>c;
+  d = a*b;
+  e = d-(a*c)-100;
+  cout<<"Profit for agency "<<e;
+}
