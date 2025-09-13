@@ -6,6 +6,6 @@ int main(){
     cin>>stud>>team;
     int p = stud/team;
     int l = stud%team;
-    cout<<p<<endl<<l;
+    cout<<p<<endl <<l;
     return 0;
 }
